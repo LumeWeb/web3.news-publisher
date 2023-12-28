@@ -2,7 +2,7 @@
 FROM node:18.17.0
 
 # Install Bun
-RUN curl -fsSL https://bun.sh/install | bash
+RUN npm install -g bun
 
 # Set the working directory in the container
 WORKDIR /app
