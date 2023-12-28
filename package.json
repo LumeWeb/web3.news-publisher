@@ -1,0 +1,28 @@
+{
+    "name": "web3.news-publisher",
+    "version": "0.1.0",
+    "description": "Publish your site to the web3.news aggregator",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "semantic-release": "semantic-release"
+    },
+    "repository": {
+        "type": "git",
+        "url": "gitea@git.lumeweb.com:LumeWeb/web3.news-publisher.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@actions/core": "^1.10.1",
+        "@actions/github": "^6.0.0",
+        "@lumeweb/s5-js": "^0.1.0-develop.24",
+        "@scure/bip39": "^1.2.2",
+        "@types/node": "^20.10.5",
+        "ed25519-keygen": "^0.4.10",
+        "typescript": "^5.3.3"
+    },
+    "devDependencies": {
+        "semantic-release": "^22.0.12"
+    }
+}
