@@ -17,4 +17,4 @@ echo "Publishing to node: $INPUT_NODE"
 echo "Publishing folder: $INPUT_FOLDER"
 
 # Example command (replace with your actual command)
-bun ./src/index.ts
+bun /app/src/index.ts
