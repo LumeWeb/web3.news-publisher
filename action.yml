@@ -6,7 +6,7 @@ runs:
         - uses: oven-sh/setup-bun@v1
           with:
               bun-version: 'latest'
-        - run: bun ./src/index.ts
+        - run: ls && bun ./src/index.ts
           shell: bash
 inputs:
     node:
