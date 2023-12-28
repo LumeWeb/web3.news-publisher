@@ -1,3 +1,11 @@
+# [0.1.0-develop.4](https://git.lumeweb.com/LumeWeb/web3.news-publisher/compare/v0.1.0-develop.3...v0.1.0-develop.4) (2023-12-28)
+
+
+### Bug Fixes
+
+* change app dir ([8654926](https://git.lumeweb.com/LumeWeb/web3.news-publisher/commit/8654926e366d377ef36b9a2c04df4996ef8dabf5))
+* put entry point in root ([3c3be95](https://git.lumeweb.com/LumeWeb/web3.news-publisher/commit/3c3be95cd80fa7aa4939bcb3c461bb7f699d64f1))
+
 # [0.1.0-develop.3](https://git.lumeweb.com/LumeWeb/web3.news-publisher/compare/v0.1.0-develop.2...v0.1.0-develop.3) (2023-12-28)
 
 # [0.1.0-develop.2](https://git.lumeweb.com/LumeWeb/web3.news-publisher/compare/v0.1.0-develop.1...v0.1.0-develop.2) (2023-12-28)
