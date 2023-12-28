@@ -10,6 +10,8 @@ WORKDIR /usr/src/app
 # Copy your action's source files to the container
 COPY . .
 
+COPY entrypoint.sh /
+
 # Command to run when the Docker container starts
 # It assumes the entrypoint is a script that handles the inputs and runs the desired commands
-ENTRYPOINT ["sh", "./entrypoint.sh"]
+ENTRYPOINT ["sh", "/entrypoint.sh"]
