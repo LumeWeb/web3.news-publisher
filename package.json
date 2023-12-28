@@ -1,6 +1,6 @@
 {
     "name": "web3.news-publisher",
-    "version": "0.1.0-develop.5",
+    "version": "0.1.0-develop.6",
     "main": "src/index.ts",
     "description": "Publish your site to the web3.news aggregator",
     "scripts": {
