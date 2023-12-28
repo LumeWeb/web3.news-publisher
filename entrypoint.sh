@@ -5,8 +5,6 @@ export INPUT_NODE=$1
 export INPUT_SEED=$2
 export INPUT_FOLDER=$3
 
-echo  "ARGS:" $@
-
 # Providing a default value for INPUT_FOLDER if not set
 if [ -z "$INPUT_FOLDER" ]
 then
