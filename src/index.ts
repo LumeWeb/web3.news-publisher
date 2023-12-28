@@ -30,6 +30,8 @@ async function run() {
     core.setOutput("cid", cid);
     core.setOutput("resolver-cid", rcid);
 
+    console.log("Files:", Object.keys(directory));
+
     console.log(
       `Website published to web3.news with CID: ${cid}, Resolver CID: ${rcid}`,
     );
