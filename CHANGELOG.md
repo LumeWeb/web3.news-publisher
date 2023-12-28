@@ -1,3 +1,10 @@
+# [0.1.0-develop.7](https://git.lumeweb.com/LumeWeb/web3.news-publisher/compare/v0.1.0-develop.6...v0.1.0-develop.7) (2023-12-28)
+
+
+### Bug Fixes
+
+* run npm ci ([61a96fa](https://git.lumeweb.com/LumeWeb/web3.news-publisher/commit/61a96fa453ea466999b4e2f7c02e0b6a6d72dc11))
+
 # [0.1.0-develop.6](https://git.lumeweb.com/LumeWeb/web3.news-publisher/compare/v0.1.0-develop.5...v0.1.0-develop.6) (2023-12-28)
 
 
