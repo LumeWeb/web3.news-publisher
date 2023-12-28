@@ -1,3 +1,10 @@
+# [0.1.0-develop.5](https://git.lumeweb.com/LumeWeb/web3.news-publisher/compare/v0.1.0-develop.4...v0.1.0-develop.5) (2023-12-28)
+
+
+### Bug Fixes
+
+* use npm install for bun ([88516c1](https://git.lumeweb.com/LumeWeb/web3.news-publisher/commit/88516c1058d17bfbe41147d38e3dc2136e428413))
+
 # [0.1.0-develop.4](https://git.lumeweb.com/LumeWeb/web3.news-publisher/compare/v0.1.0-develop.3...v0.1.0-develop.4) (2023-12-28)
 
 
