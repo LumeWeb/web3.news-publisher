@@ -1,20 +1,20 @@
 name: 'web3.news Publisher'
 description: 'An action that publishes your site to the web3.news aggregator'
 runs:
-    using: 'composite'
-    steps:
-        - uses: oven-sh/setup-bun@v1
-          with:
-              bun-version: 'latest'
-        - run: ls && bun ./src/index.ts
-          shell: bash
+    using: 'docker'
+    image: 'Dockerfile'
+    args:
+        - ${{ inputs.node }}
+        - ${{ inputs.seed }}
+        - ${{ inputs.folder }}
 inputs:
     node:
-        description: The S5 node to deploy to
+        description: 'The S5 node to deploy to'
         required: true
     seed:
-        description: Your site BIP39 seed
+        description: 'Your site BIP39 seed'
         required: true
     folder:
-        description: The folder to publish
-        default: public
+        description: 'The folder to publish'
+        required: false
+        default: 'public'
