@@ -12,6 +12,8 @@ COPY . .
 
 COPY entrypoint.sh /
 
+RUN npm ci
+
 # Command to run when the Docker container starts
 # It assumes the entrypoint is a script that handles the inputs and runs the desired commands
 ENTRYPOINT ["sh", "/entrypoint.sh"]
