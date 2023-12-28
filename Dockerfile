@@ -5,7 +5,7 @@ FROM node:18.17.0
 RUN curl -fsSL https://bun.sh/install | bash
 
 # Set the working directory in the container
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Copy your action's source files to the container
 COPY . .
