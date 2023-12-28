@@ -1,3 +1,10 @@
+# [0.1.0-develop.6](https://git.lumeweb.com/LumeWeb/web3.news-publisher/compare/v0.1.0-develop.5...v0.1.0-develop.6) (2023-12-28)
+
+
+### Bug Fixes
+
+* use absolute path ([6af82b2](https://git.lumeweb.com/LumeWeb/web3.news-publisher/commit/6af82b244aef5ac1b712a4ab7bc719c34dd364ae))
+
 # [0.1.0-develop.5](https://git.lumeweb.com/LumeWeb/web3.news-publisher/compare/v0.1.0-develop.4...v0.1.0-develop.5) (2023-12-28)
 
 
